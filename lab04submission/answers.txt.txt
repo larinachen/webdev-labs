@@ -1,0 +1,14 @@
+What is the value of SQL Alchemy?
+- SQL Alchemy simplifies how we communicate with various SQL databases via abstractions. 
+  Instead of writing SQL commands directly, developers write python-like commands to interact with the database.
+  This enables us to use the same commands across many different SQL databases.
+
+
+What is a model?
+- A model emulates the structure of a table in the database and provides objects that translate ("map") the commands 
+  that the developer can use to interact with the database.
+
+
+What is a view?
+- We can regard view as the client of model. It has more "upper-level" commands that the developer can use to interact 
+  with the database (e.g. post, delete, etc.)
