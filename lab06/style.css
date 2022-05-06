@@ -112,3 +112,41 @@ button {
 .high-contrast button {
     color: black;
 }
+
+.dyslexia-mode{
+    letter-spacing: 0.35ch;
+    word-spacing: 1.225ch;
+    font-variant-ligatures: none;
+}
+
+.dyslexia-mode content{
+    line-height: 2.0;
+    margin: auto;
+ }
+ 
+ .dyslexia-mode h1{
+    margin: auto;
+    color: #000;
+    font-size: 240%;
+ }
+
+ .dyslexia-mode h2{
+    margin: auto;
+    color: #000;
+    font-size: 180%;
+    width: 70%;
+    margin-top: 3.5em;
+ }
+
+ .dyslexia-mode p{
+    margin:auto;
+    margin-top: 3.5em;
+    color: #000;
+    font-size: 150%;
+    width: 70%;
+ }
+
+ .dyslexia-mode button{
+    color: #000;
+    font-size: 150%;
+ }
